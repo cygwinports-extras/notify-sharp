@@ -1,0 +1,6 @@
+category: Dotnet Gnome
+requires: mono gtk-sharp2 ndesk-dbus-sharp ndesk-dbus-glib-sharp notification-daemon
+sdesc: "Mono C# desktop notifications implementation"
+ldesc: "notify-sharp is a C# client implementation for Desktop 
+Notifications, i.e. notification-daemon. It is inspired by the libnotify 
+API."
