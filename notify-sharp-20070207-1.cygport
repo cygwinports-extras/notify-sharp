@@ -1,6 +1,0 @@
-# HG_REV="01f5c7d434e2"
-HG_URI="http://hg.circular-chaos.org/notify-sharp"
-inherit hg
-
-DESCRIPTION="Mono C# libnotify bindings"
-HOMEPAGE="http://www.ndesk.org/NotifySharp"

@@ -4,66 +4,48 @@ notify-sharp is a C# client implementation for Desktop Notifications,
 i.e. notification-daemon. It is inspired by the libnotify API.
 
 Runtime requirements:
-  gtk-sharp2-2.10.2-1
-  mono-1.2.6-1
-  ndesk-dbus-glib-sharp-0.4.1-1
-  ndesk-dbus-sharp-0.6.0-1
-  notification-daemon-0.3.7-2
+  mono-2.4.3.1-1
+  mono-glib-sharp2.0-2.12.9-1
+  mono-gtk-sharp2.0-2.12.9-1
+  mono-NDesk-DBus-GLib1.0-0.4.1-2
+  mono-NDesk-DBus1.0-0.6.1a-1
+  notification-daemon
 
 Build requirements:
 (besides corresponding -devel packages)
-  cygwin-1.5.25-7
-  autoconf2.5-2.61-1
-  automake1.10-1.10-1
-  cygport-0.3.9-1
-  gawk-3.1.6-1
-  make-3.81-1
-  monodoc-1.2.6-1
-  mercurial-0.9.5-1
-  pkg-config-0.21-1
+  autoconf2.5-2.65-1
+  automake1.10-1.10.3-1
+  cygport-0.9.80-1
+  gawk-3.1.7-1
+  make-3.81-2
+  pkg-config-0.23b-10
   sed-4.1.5-2
 
 Canonical website:
   http://www.ndesk.org/NotifySharp
 
 Canonical download:
-  http://hg.circular-chaos.org/notify-sharp
+  http://svn.galago-project.org/trunk/notify-sharp
 
 -------------------------------------------
 
 Build instructions:
-  unpack notify-sharp-20070207-X-src.tar.bz2
+  unpack notify-sharp-0.4.0_r3032-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./notify-sharp-20070207-X.cygport all
+  cygport ./notify-sharp-0.4.0_r3032-X.cygport all
 
 This will create:
-  /usr/src/notify-sharp-20070207-X-src.tar.bz2
-  /usr/src/notify-sharp-20070207-X.tar.bz2
+  /usr/src/notify-sharp-0.4.0_r3032-X-src.tar.bz2
+  /usr/src/mono-notify-sharp0.4-0.4.0_r3032-X.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/mono/gac/notify-sharp/0.4.0.0__2df29c54e245917a/notify-sharp.dll
-  /usr/lib/mono/notify-sharp/notify-sharp.dll
-  /usr/lib/monodoc/sources/notify-sharp-docs.source
-  /usr/lib/monodoc/sources/notify-sharp-docs.tree
-  /usr/lib/monodoc/sources/notify-sharp-docs.zip
-  /usr/lib/pkgconfig/notify-sharp.pc
-  /usr/share/doc/notify-sharp-20070207/AUTHORS
-  /usr/share/doc/notify-sharp-20070207/COPYING
-  /usr/share/doc/notify-sharp-20070207/ChangeLog
-  /usr/share/doc/notify-sharp-20070207/NEWS
-  /usr/share/doc/notify-sharp-20070207/README
-
-------------------
-
 Port Notes:
 
------ version 20070207-1 -----
-Initial release for Cygwin.
+----- version 0.4.0_r3032-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
